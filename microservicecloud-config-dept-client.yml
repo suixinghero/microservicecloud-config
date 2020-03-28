@@ -7,7 +7,7 @@ server:
   port: 8001
 spring:
    application:
-    name: microservicecloud-dept   #对外暴露的微服务的名字
+    name: microservicecloud-config-dept-client   #对外暴露的微服务的名字
    datasource:
     type: com.alibaba.druid.pool.DruidDataSource            # 当前数据源操作类型
     driver-class-name: com.mysql.jdbc.Driver              # mysql驱动包
@@ -43,7 +43,7 @@ server:
   port: 8002
 spring:
    application:
-    name: microservicecloud-dept   #对外暴露的微服务的名字
+    name: microservicecloud-config-dept-client   #对外暴露的微服务的名字
    datasource:
     type: com.alibaba.druid.pool.DruidDataSource            # 当前数据源操作类型
     driver-class-name: com.mysql.jdbc.Driver              # mysql驱动包
